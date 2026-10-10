@@ -135,6 +135,7 @@ Management panel: Settings → Plugins.
 - [weibaohui/dsh-process](https://github.com/weibaohui/dsh-process) - Process management: brings ntd-style processes (multi-stage, multi-step agent workflow templates) into the dsh web UI — browse, edit, validate, import/export and AI-generate processes; the built-in library is read-only while the personal library is writable with live file sync, and agents read the library through process_* tools and advance work stage by stage.
 
 - [Awoodwhale/dsh-agent-persona](https://github.com/Awoodwhale/dsh-agent-persona) - System-prompt personas scoped by workspace or session: one persona can cover several workspace directories and several sessions, matched exactly, by prefix, by substring or by regex, most specific wins, and one persona can be marked as the default; managed from a settings page and a 「人设」tab on the conversation, effective on the next message.
+- [dsh-zh-thinking](https://github.com/yingjian666/dsh-zh-thinking) - Host plugin that adds Simplified Chinese instructions to the system prompt for planning and tool-call reasoning.
 
 ## Context & Search
 
@@ -455,7 +456,7 @@ Management panel: Settings → Plugins.
 - [JohnXu22786/computer-control](https://github.com/JohnXu22786/computer-control) - Desktop control for dsh: screen capture, pointer/keyboard injection, accessibility-tree semantic actions, emergency stop, allow/deny rules, confirmation flow and idle standby.
 - [DSHBox](https://github.com/WSK-build/DSHBox) - Run DeepSeek Harness natively on Android: a single APK bundling a layered Debian sandbox, Node.js, DSH and a terminal — no root, no Termux; runtime layers update independently, DSH upgrades over npm, and installs are atomic dual-slot with rollback. Six-language UI.
 - [dsh-native-macos](https://github.com/DanielW203/dsh-native-macos) - Native SwiftUI macOS client for DeepSeek Harness: several releases installed side by side, an 8-check self-test after each upgrade with one-shot rollback, safe-mode recovery, and a built-in WeChat/phone remote channel.
-- [dsh-zh-thinking](https://github.com/yingjian666/dsh-zh-thinking) - Keeps the agent's chain-of-thought, planning and tool-call reasoning in Simplified Chinese, preventing drift into English. Zero-dependency host plugin; installs from GitHub, a local directory or a tarball.
+
 ## Browser & Remote
 
 - [mrRisega/dsh-remote](https://github.com/mrRisega/dsh-remote) - Reverse-proxy gateway to control the DSH Web UI from a phone browser with full feature coverage (incl. privileged methods): loopback masquerading, WebSocket passthrough, login rate limiting, optional TLS, LAN or public reverse-proxy deployment.
